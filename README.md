@@ -7,5 +7,7 @@ Technology stack - Tailwind CSS, Angular, Web Speech Api
 Website Link - ""
 
 ## Steps to install:
+
 1 -->  npm install
+
 2 -->  npm start
