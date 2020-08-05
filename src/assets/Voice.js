@@ -13,6 +13,11 @@ recognition.onstart = function () {
     document.getElementById('instructions').innerHTML="<strong>Voice recognition activated</strong>. Try speaking into the microphone.";
 }
 
+recognition.onend = function () {
+    console.log("Ended!!");
+    document.getElementById('instructions').innerHTML="<strong>Voice recognition deactivated</strong>";
+}
+
 recognition.onspeechend = function () {
     console.log('You were quiet for a while so voice recognition turned itself off.');
 }
